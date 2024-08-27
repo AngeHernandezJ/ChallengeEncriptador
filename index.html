@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style-index.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/Logo.png" alt="Logo de Alura Latam">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="20" rows="10" placeholder="Mensaje para encriptar"></textarea>
+            <div>
+                <h6 class="information">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encript" onclick="btnEncriptar();">Encriptar</button>
+                <button class="btn-desencript" onclick="btnDesencriptar();">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder=""></textarea>
+            <div>
+                <button class="copy">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app-index.js"></script>
+</body>
+</html>
